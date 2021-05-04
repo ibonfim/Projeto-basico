@@ -1,0 +1,205 @@
+body {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      " main aside aside"
+      "footer footer footer";
+        background-color: #e5e5e5;
+      margin: 0px;
+    }
+
+    #logo{
+        margin-right:12px;
+        width: 55px;
+        margin-bottom: -20px; 
+     }
+    #titulo{
+        margin: 135px;
+    }
+  .aheader {
+    grid-area: header;
+    max-width:1440px ;
+    max-height: 70px;
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+  }
+   
+#item1{
+     
+    padding-right: 48px;    
+}
+#item2{
+    padding-right: 48px;    
+   }
+   #item3{
+    padding-right: 48px;    
+   }
+ 
+   #cat{
+       width: 96px;
+       height:25px;
+       border-left: #FE0078 1px;
+    font-family:-apple-system, BlinkMacSystemFont,  'Open Sans', 'Helvetica Neue', sans-serif;
+     padding-left: 11px;
+    border-left:solid #FE0078;
+    margin: 32px 20px 40px;
+
+
+   }
+
+   #aaside{
+       
+        
+    grid-area: aside;
+       width: 380px;
+    height: 1394px;
+     background-color:white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 5px; 
+    margin: 56px;  
+    margin-left: -70px;
+ 
+
+
+
+   }
+  #pesquisa {
+    
+     
+    width: 340px;
+    height: 52px;
+     border: 1px solid #FE0078;
+     margin: 20px 20px 20px;
+    border-radius: 10px;
+
+         
+
+    
+    
+  }
+
+   
+
+  #text1{
+    font-family:-apple-system, BlinkMacSystemFont,  'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding-bottom: 16px;
+    border-bottom: 3px dotted #eeeeee;
+    margin: 20px 20px 16px;
+    
+   }
+
+   #text1:hover{
+     border-bottom: 3px dotted black;
+   }
+
+   #text2{
+    font-family:-apple-system, BlinkMacSystemFont,  'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 0px;
+    font-size: 14px;
+    border-bottom: 3px dotted #eeeeee;
+    padding-bottom: 16px;
+    margin: 0px 20px 16px;
+
+
+   }
+   #text2:hover{
+    border-bottom: 3px dotted #FE0078
+  }
+   
+   #text3{
+    font-family:-apple-system, BlinkMacSystemFont,  'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 14px;
+    border-bottom: 3px dotted #eeeeee;
+    
+    padding-bottom: 16px;
+    margin: 15px 20px 15px;
+   }
+
+
+#caixa{
+    width: 340px;
+    height: 240px;
+    background-color: #eeeeee;
+      margin: 0px 20px 31px;
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont,  'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+}
+  h2{    
+    width: 332px;
+    height: 33px;
+    margin: 24px 0px 8px;
+      font-family:-apple-system, BlinkMacSystemFont,  'Open Sans', 'Helvetica Neue', sans-serif;
+    
+
+ 
+
+  }
+  .container1 {
+    grid-area: main;
+     background-color: white;
+    width: 730px;
+    height: 696px;
+    border-radius: 5px;
+    margin:56px ;
+    margin-left:140px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+  }
+
+
+ .continuarlendo{
+    width: 154px;
+    height: 43px;
+    border-radius: 20px;
+     border: 1px solid #FE0078;
+    margin: 36px  ;
+ }
+.botao{
+    text-align: end;
+ }
+
+
+
+ #parag{
+     width: 682;
+     height: 136;
+     margin: 24px 24px 24px;
+     font-family:-apple-system, BlinkMacSystemFont,  'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px ;
+    color:#545454;
+ }
+
+    #foto1{
+        width: 100%;
+    
+        height: auto;
+        margin: auto;
+     }
+
+    
+     #foto2{
+    width: 100%;
+    height: auto;
+     margin: auto;
+     }
+    
+ 
+ 
+  
+  
+ 
+  .afooter {
+    grid-area: footer;
+     width: 1440px;
+    height: 70px;
+     background-color:#222222;
+     text-align: center;
+    color: #e5e5e5;
+    }
+    
+
