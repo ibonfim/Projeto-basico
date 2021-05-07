@@ -2,23 +2,35 @@ body {
     display: grid;
     grid-template-areas:
       "header header header"
-      " main aside aside"
+      " main main aside"
       "footer footer footer";
-        background-color: #e5e5e5;
+        background-color: #E5E5E5;
       margin: 0px;
     }
 
     #logo{
-        margin-right:12px;
-        width: 55px;
+        margin-right:-4px;
+        width: 60px;
         margin-bottom: -20px; 
      }
     #titulo{
         margin: 135px;
     }
+    #ponto{
+     max-width: 15px;
+     max-height: 15px;
+     width: auto;
+    height: auto;
+    margin-bottom: 13px;
+    margin-right: 25x;
+     }
+     #name{
+      color:   #001A49;
+      }
+
   .aheader {
     grid-area: header;
-    max-width:1440px ;
+    max-width:100%  ;
     max-height: 70px;
     display:flex;
     justify-content: space-between;
@@ -30,21 +42,15 @@ body {
      
     padding-right: 48px;    
 }
-#item2{
-    padding-right: 48px;    
-   }
-   #item3{
-    padding-right: 48px;    
-   }
- 
+
    #cat{
-       width: 96px;
-       height:25px;
-       border-left: #FE0078 1px;
-    font-family:-apple-system, BlinkMacSystemFont,  'Open Sans', 'Helvetica Neue', sans-serif;
-     padding-left: 11px;
-    border-left:solid #FE0078;
-    margin: 32px 20px 40px;
+        width: 96px;
+        height:25px;
+        border-left: #FE0078 1px;
+      font-family:-apple-system, BlinkMacSystemFont,  'Open Sans', 'Helvetica Neue', sans-serif;
+      padding-left: 11px;
+      border-left:solid #FE0078;
+      margin: 32px 20px 40px;
 
 
    }
@@ -53,153 +59,128 @@ body {
        
         
     grid-area: aside;
-       width: 380px;
-    height: 1394px;
-     background-color:white;
+    max-width: 380px;
+    max-height: 1394px;
+    background-color:white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
     border-radius: 5px; 
     margin: 56px;  
-    margin-left: -70px;
- 
-
-
-
+    margin-left: 0;
    }
+
   #pesquisa {
-    
-     
+
     width: 340px;
     height: 52px;
      border: 1px solid #FE0078;
-     margin: 20px 20px 20px;
+     margin: 20px 17px 20px;
     border-radius: 10px;
-
-         
-
-    
-    
+ 
   }
 
-   
-
-  #text1{
-    font-family:-apple-system, BlinkMacSystemFont,  'Open Sans', 'Helvetica Neue', sans-serif;
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
-    padding-bottom: 16px;
-    border-bottom: 3px dotted #eeeeee;
-    margin: 20px 20px 16px;
-    
-   }
-
-   #text1:hover{
-     border-bottom: 3px dotted black;
-   }
-
-   #text2{
+   .text2{
     font-family:-apple-system, BlinkMacSystemFont,  'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top: 0px;
     font-size: 14px;
     border-bottom: 3px dotted #eeeeee;
     padding-bottom: 16px;
-    margin: 0px 20px 16px;
-
+    margin: 16px 20px 16px;
+    display : flex;
+    justify-content: space-between;
 
    }
-   #text2:hover{
+   .text2:hover{
     border-bottom: 3px dotted #FE0078
   }
-   
-   #text3{
-    font-family:-apple-system, BlinkMacSystemFont,  'Open Sans', 'Helvetica Neue', sans-serif;
-     font-size: 14px;
-    border-bottom: 3px dotted #eeeeee;
-    
-    padding-bottom: 16px;
-    margin: 15px 20px 15px;
-   }
 
-
-#caixa{
-    width: 340px;
-    height: 240px;
-    background-color: #eeeeee;
-      margin: 0px 20px 31px;
-    text-align: center;
-    font-family:-apple-system, BlinkMacSystemFont,  'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 36px;
+.caixa{
+        width: 340px;
+        height: 240px;
+        background-color: #eeeeee;
+        margin: 0px 20px 31px;
+        font-family:-apple-system, BlinkMacSystemFont,  'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 36px;
+        display : flex;
+     
 }
-  h2{    
-    width: 332px;
-    height: 33px;
-    margin: 24px 0px 8px;
-      font-family:-apple-system, BlinkMacSystemFont,  'Open Sans', 'Helvetica Neue', sans-serif;
-    
+.textBox{
+  display: flex;
+  margin: auto;
+ }
+  .subt{ 
+    margin: 24px;
+    padding-top: 24px;
+    font-weight: bold ;
+    font-size: 24px;
+    font-family:-apple-system, BlinkMacSystemFont,  'Open Sans', 'Helvetica Neue', sans-serif;
 
- 
+  }
+
+  .date{
+    margin-left: 24px;
+    font-size: 12px;
+    font-family:-apple-system, BlinkMacSystemFont,  'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#929292
 
   }
   .container1 {
     grid-area: main;
-     background-color: white;
-    width: 730px;
-    height: 696px;
+    background-color: white;
+    max-width: 730px;
+    max-height: 696px;
     border-radius: 5px;
     margin:56px ;
     margin-left:140px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    
   }
 
 
  .continuarlendo{
-    width: 154px;
-    height: 43px;
-    border-radius: 20px;
-     border: 1px solid #FE0078;
-    margin: 36px  ;
- }
-.botao{
-    text-align: end;
- }
+      width: 154px;
+      height: 43px;
+      border-radius: 20px;
+      border: 1px solid #FE0078;
+      margin-bottom:25px   ;
+      margin-left: 530px;
 
+  }
+ 
+ 
+ .continuarlendo:hover{
+   background-color: #FE0078;
 
+}
 
- #parag{
-     width: 682;
-     height: 136;
-     margin: 24px 24px 24px;
-     font-family:-apple-system, BlinkMacSystemFont,  'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14px ;
-    color:#545454;
- }
+ .parag{
+    display: flex;
+      max-width: 682;
+      max-height: 136;
+      margin: 24px 24px 24px;
+      font-family:-apple-system, BlinkMacSystemFont,  'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 14px ;
+      color:#545454;
+      text-align: left;
+  }
 
-    #foto1{
+    .foto{
         width: 100%;
-    
-        height: auto;
-        margin: auto;
+        
      }
-
-    
-     #foto2{
-    width: 100%;
-    height: auto;
-     margin: auto;
-     }
-    
- 
- 
-  
-  
  
   .afooter {
-    grid-area: footer;
-     width: 1440px;
-    height: 70px;
-     background-color:#222222;
-     text-align: center;
-    color: #e5e5e5;
+        grid-area: footer;
+        width: 100%;
+        height: 70px;
+        background-color:#222222;
+        color: #e5e5e5;
+         
     }
+    .textfooter{
+display: flex;
+justify-content: center;
+padding-top: 30px;
+    }
+     
     
 
